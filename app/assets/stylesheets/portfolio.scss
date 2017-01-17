@@ -1,0 +1,337 @@
+@import "bootstrap";
+
+body{
+    background-color: #eee;
+}
+#home{
+	height: 55em;
+	background: image-url('background.jpg');
+	background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+#home .intro-text{
+	padding-top: 190px;
+    padding-bottom: 100px;
+}
+
+#home .welcome-text{
+	font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px; 
+}
+
+#home .meet-text{
+	font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+}
+
+#home a{
+	color: #fff;
+    background-color: #ffc600;
+    border-color: #ffc600;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#home a:hover{
+	color: #333333;
+	text-decoration: none
+}
+
+#mainNav{
+    background-color: #222; 
+    padding: 10px 0;
+}
+
+#navBar .navMenu a{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#navBar .navMenu:hover a{
+	color: #fec503;
+}
+
+#navBar .active a{
+	background-color: #fec503;
+	border-radius: 3px;
+}
+
+#navBar .active:hover a{
+	color: #333333;
+}
+
+.img-circle {
+    border-radius: 50%;
+    z-index: 100;
+    background-color: #fed136;
+    color: #fff;
+    border-radius: 100%;
+    border: 7px solid #f1f1f1;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.img-responsive{
+	height: 15.2em;
+    width: 15.2em;
+    display: inline;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+}
+
+#centerDiv{
+    margin-top: 120px; 
+    text-align: center;
+}
+
+#centerDiv .section-heading{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px; 
+    font-weight: bold
+}
+
+#centerDiv .jayvee-name{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#centerDiv .jayvee-webDev{
+    font-size: 11px;
+    line-height: 1.75;
+}
+
+#centerDiv .pro{
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-style: italic;    
+    font-size: 12px;
+    text-transform: none;
+    font-weight: 20;
+    margin-bottom: 75px;
+}
+
+#personalData{
+    display: inline-flex; 
+    margin-left: -10%; 
+    margin-top: 10em
+}
+
+#personalData div{
+    padding: 0 50px 20px 100px; 
+    text-align: right;
+    margin-left: -13em;
+    margin-top: -1em;
+}
+
+#personalData h4, #education h4, #work h4, #goals h4{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#personalData span, #education span, #work span, #goals span{
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    text-transform: none;
+    font-weight: 20;
+    margin-bottom: 75px;
+}
+
+#education{
+    display: inline-flex;     
+    margin-left: 20%;
+    margin-top: 8em;
+}
+
+#education div{
+     padding: 0 50px 20px 100px; 
+     text-align: left;    
+     margin-top: -5em;
+}
+
+#work{
+    display: inline-flex; 
+    margin-left: -23%; 
+    margin-top: 5em
+}
+
+#work div{
+    padding: 0 50px 20px 100px; 
+    text-align: right;
+    margin-left: -13em;
+    margin-top: 2em;
+}
+
+#goals{
+    display: inline-flex;     
+    margin-left: 43%;
+    margin-top: 8em;
+}
+
+#goals div{
+    padding: 0 50px 20px 100px; 
+    text-align: left;    
+    margin-top: -2em;
+}
+
+.studentLife{
+    font-family: 'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-style: italic;    
+    font-size: 13px;
+    text-transform: none;
+    font-weight: 20;
+    margin-bottom: 75px;
+}
+
+.footer{
+    text-align: center;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left: -2em;
+}
+
+#footer{
+    background-color: white;
+    height: 4em;
+    margin-top: -1.5em;
+    margin-bottom: -2em;
+}
+
+.skill{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 30em;
+    height: 20em
+}
+
+.skill img{
+    margin: 0 auto;
+    border: 7px solid #bdbaae;
+}
+
+.skill h4{
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.skill p{
+    color: #777;
+}
+
+#btnLinks .img-responsive{
+    height: 2em;
+    width: 2em;
+}
+
+#btnLinks .img-circle{
+    border: none;
+}
+
+.portfolio-caption{
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+}
+
+.portfolio-item .img-responsive{
+    height: 25.2em;
+    width: 35.2em;
+    display: inline;
+}
+
+.portfolio-item{
+    margin-top: 5em;
+}
+
+#address{
+    margin-left: 15px;
+}
+
+.contact{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 15em;
+    height: 20em
+}
+
+.contact .img-responsive{
+    height: 8em;
+    width: 8em;
+}
+
+.navbar-collapse.collapse {
+    display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+    float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: -15px !important;
+}
+
+.navbar-right {
+    float: right!important;
+}
+
+#mainNav .navbar-brand{
+    color: #fed136;
+    font-family: cursive;
+    font-size: 2em;
+}
+
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  margin-left: .5em;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+.modal-body span{
+    font-size: 15px; 
+    line-height: 1.75;
+}

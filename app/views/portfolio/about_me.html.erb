@@ -1,0 +1,144 @@
+<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="background-color: #222; padding: 10px 0;">
+    <div class="container">
+    	<%= link_to "Portfolio", root_path, class: "navbar-brand" %>
+        <div class="collapse navbar-collapse" id="navBar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "HOME", root_path %>
+                </li>
+                <li class="page-scroll navMenu active">
+                    <%= link_to "ABOUT ME", about_me_path %>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "STUDENT LIFE", student_life_path %>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "SKILLS", skills_path %>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "PROJECTS", projects_path %>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "CONTACT ME", contact_me_path %>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="row">
+    <div class="col-lg-12 text-center" id="centerDiv">
+        <h2 class="section-heading">ABOUT ME</h2>
+		<%= image_tag("jv.jpg", class: 'img-circle img-responsive')%>
+		<br><br>
+		<div id='btnLinks'>
+            <span><%= link_to image_tag("fb.png", class: 'img-circle img-responsive', title: 'Facebook'), 'https://facebook.com/jayveelugod' %></span>
+            <span><%= link_to image_tag("github.png", class: 'img-circle img-responsive', title: 'Github'), 'https://github.com/jayveelugod'%></span>
+        </div>
+    	<br>
+    	<span class='jayvee-name'> Jayvee Lugod </span>
+    	<br>
+		<p class='jayvee-webDev'> Full Stack Web Developer </p>
+    	<br>
+        <h3 class="section-subheading text-muted">Professional Profile</h3>
+        <div style="width: 30em; display: inline-block;">
+        	<span class="pro">
+        		Hi, I’m Jayvee but you can call me Jay. I am a developer interested in web technologies. I have worked on multiple sites during my part time career and have been able to learn a lot of every single one of them.<br>I am always open to work on new technologies or entering new areas with interesting problems to solve where I could practice my knowledge and develop my personality as a career person while utilizing my skills.
+			</span>
+		</div>
+
+		<br><br><br>
+
+		<div id='personalData'>
+	     	<div>
+		     	<h4>Personal Data </h4>
+		     	<span>
+		    		Gender : <b>Male</b><br>
+					Age : <b>20</b><br>
+					Date of Birth : <b>December 9, 1996</b><br>
+					Place of Birth : <b>Cebu City</b><br>
+					Civil Status : <b>Single</b><br>
+					Citizenship : <b>Filipino</b><br>
+					Height : <b>5’6</b><br>
+					Weight : <b>52 kg</b> <br>
+					Religion : <b>Roman Catholic</b><br>
+					Languages : <b>English, Filipino, Cebuano</b>
+				</span>
+			</div>
+		    <%= image_tag("personal.png", class: 'img-circle img-responsive')%>
+		</div>
+
+		<br><br><br>
+
+		<div id='education'>
+		 	<%= image_tag("diploma.jpg", class: 'img-circle img-responsive')%>	
+	     	<div>
+		     	<h4>Education </h4>
+		     	<span>
+					<b>2013-Present<br>
+					B.S. Computer Science<br>
+					University of San Carlos – TC</b><br>
+					Nasipit, Talamban, Cebu City<br>
+					College<br><br>
+
+					<b>2009-2013<br>
+					Santo Niño Institute</b><br>
+					Poblacion, Getafe, Bohol<br>
+					Highschool<br><br>
+
+					<b>2003-2009<br>
+					Getafe Central Elem. School</b><br>
+					Poblacion, Getafe, Bohol<br>
+					Elementary
+				</span>
+			</div>
+		</div>
+
+		<br><br><br>
+
+		<div id='work'>
+	     	<div>
+		     	<h4>Work Experience </h4>
+		     	<span>
+	   				<b> Junior PHP Developer (Part time),  2016 - 2017</b><br>
+					Zylun Philippines Inc., IT Park, Apas, Lahug, Cebu City<br><br>
+
+					<i> - I worked on both back-end and front-end technologies. <br> 
+					Developed and maintained their web based system for company use. </i>
+				</span>
+			</div>
+	    	<%= image_tag("work.png", class: 'img-circle img-responsive')%>
+		</div>
+
+		<br><br><br>
+
+		<div id='goals'>
+		 	<%= image_tag("goal.png", class: 'img-circle img-responsive')%>	
+	     	<div>
+		     	<h4>Goals </h4>
+		     	<span>
+				    <i>Every individual has his/her own set of goals in life.<br>
+				   	There are what we called short term and long term goals.<br>
+				    For this year, the number one in my goal list is to graduate this coming April 2017.<br>
+				    This has been the goal and the dream of all students.<br>
+				    I want to graduate and bring the knowledge, skills, and experience I gained in the four corners of my Alma Matter.<br>
+				    And for my long term goals, there's quite plenty.<br>
+				    But one thing is for sure, when I strike that goal this coming April 2017,<br>
+				    surely it's the key to achieve my long term goals.<br>
+				    My mind set is simple. Do my best everytime<br>
+				    and be the better version of me each day of my life.</i>
+				</span>
+			</div>
+		</div>
+    </div>
+</div>
+<hr/> 
+<br><br><br>   
+<div id='footer'>
+	<br>
+	<p class="footer"> 
+		Copyright © Jayvee Lugod Portfolio 2017
+	</p> 
+</div>

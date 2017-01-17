@@ -1,0 +1,424 @@
+<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="background-color: #222; padding: 10px 0;">
+    <div class="container">
+        <%= link_to "Portfolio", root_path, class: "navbar-brand" %>
+        <div class="collapse navbar-collapse" id="navBar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "HOME", root_path %>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "ABOUT ME", about_me_path %>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "STUDENT LIFE", student_life_path %>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "SKILLS", skills_path %>
+                </li>
+                <li class="page-scroll navMenu active">
+                    <%= link_to "PROJECTS", projects_path %>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "CONTACT ME", contact_me_path %>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="row">
+    <div class="col-lg-12 text-center" id="centerDiv">
+        <h2 class="section-heading">PROJECTS</h2>
+       <%= image_tag("initials.png", class: 'img-circle img-responsive', title: 'Jayvee Lugod')%>
+        <br><br>
+        <div id='btnLinks'>
+            <span><%= link_to image_tag("fb.png", class: 'img-circle img-responsive', title: 'Facebook'), 'https://facebook.com/jayveelugod' %></span>
+            <span><%= link_to image_tag("github.png", class: 'img-circle img-responsive', title: 'Github'), 'https://github.com/jayveelugod'%></span>
+        </div>
+        <br>
+        <span class='jayvee-name'> Jayvee Lugod </span>
+        <br>
+        <p class='jayvee-webDev'> Full Stack Web Developer </p>
+        <br>
+        <div style="width: 100%;">
+            <br><br>
+            <h3 class="section-subheading text-muted" style="margin-bottom: -2em">PROJECTS INVOLVED / MADE</h3>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#zylunIntra" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <%= image_tag("zylunIntra.png", class: 'img-responsive', title: 'Zylun Intranet', size: '140x150')%>
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Zylun Intranet</h4>
+                    <p class="text-muted">Zylun Intranet System</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#zylunATS" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <%= image_tag("zylunATS.png", class: 'img-responsive', title: 'Zylun ATS')%>
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Zylun ATS</h4>
+                    <p class="text-muted">Zylun Recruitment Portal</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#jobsBoard" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <%= image_tag("jobsBoard.png", class: 'img-responsive', title: 'Jobs Board Application')%>
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Jobs Board Application</h4>
+                    <p class="text-muted">Web-based Application made from Ruby on Rails</p>
+                </div>
+            </div>
+            <br><br>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#mdl" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <%= image_tag("mdl.png", class: 'img-responsive', title: 'Multi PC Distributing Language')%>
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Multi PC Distributing Language</h4>
+                    <p class="text-muted">Compiler Design Web-based Application</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#ds" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <%= image_tag("ds.png", class: 'img-responsive', title: 'Distributed System')%>
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Distributed System Web-based User Interface</h4>
+                    <p class="text-muted">User Interface for the thesis entitled Distributed System</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#cebuColleges" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <%= image_tag("cebuColleges.png", class: 'img-responsive', title: 'Cebu Colleges', size: '140x150')%>
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Cebu Colleges</h4>
+                    <p class="text-muted">Web Application Project</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr/>    
+<br><br><br>
+<div id='footer'>
+    <br>
+    <p class="footer"> 
+       Copyright © Jayvee Lugod Portfolio 2017
+    </p> 
+</div>   
+
+<!-- Modals -->
+<div class="portfolio-modal modal fade" id="zylunIntra" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <center>
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+                    <h2>Zylun Intranet</h2>
+                </div>
+                <div class="modal-body">
+                    <%= image_tag("zylunIntra.png", title: 'Zylun Intranet', style: 'width: 100%; height: 50em;')%>
+                    <br><br>
+                    <p class="item-intro text-muted"><b>Project Description<b></p>
+                    <span>A system that involves internal works such as TimeKeeping, HRIS, CRM, Employee Management System and Internal Finance.</span>
+                    <br><br><br>
+                    <p class="item-intro text-muted"><b>Technologies<b></p>
+                    <span>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Platform:</td>
+                                    <td style="padding-left:5em">Windows</td>
+                                </tr>
+                                <tr>
+                                    <td>Languages:</td>
+                                    <td style="padding-left:5em">PHP, SQL, Javascript</td>
+                                </tr>
+                                <tr>
+                                    <td>Application Server:</td>
+                                    <td style="padding-left:5em">Ubuntu</td>
+                                </tr>
+                                <tr>
+                                    <td>Database Server:</td>
+                                    <td style="padding-left:5em">MySQL</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </span>
+                    <br><br><br>
+                    <p class="item-intro text-muted"><b>Responsibilities<b></p>
+                    <span>Front and Back End Developer</span>
+                </div>
+                <br><br><br>
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+            </center>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="zylunATS" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <center>
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+                    <h2>Zylun ATS</h2>
+                </div>
+                <div class="modal-body">
+                    <%= image_tag("zylunATS.png", title: 'Zylun ATS', style: 'width: 100%; height: 50em;')%>
+                    <br><br>
+                    <p class="item-intro text-muted"><b>Project Description<b></p>
+                    <span>Job application management, web based applicant profiles, job board technology and management of jobs.</span>
+                    <br><br><br>
+                    <p class="item-intro text-muted"><b>Technologies<b></p>
+                    <span>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Platform:</td>
+                                    <td style="padding-left:5em">Windows</td>
+                                </tr>
+                                <tr>
+                                    <td>Languages:</td>
+                                    <td style="padding-left:5em">PHP, SQL, Javascript</td>
+                                </tr>
+                                <tr>
+                                    <td>Application Server:</td>
+                                    <td style="padding-left:5em">Ubuntu</td>
+                                </tr>
+                                <tr>
+                                    <td>Database Server:</td>
+                                    <td style="padding-left:5em">MySQL</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </span>
+                    <br><br><br>
+                    <p class="item-intro text-muted"><b>Responsibilities<b></p>
+                    <span>Front and Back End Developer</span>
+                </div>
+                <br><br><br>
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+            </center>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="jobsBoard" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <center>
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+                    <h2>Jobs Board Application</h2>
+                </div>
+                <div class="modal-body">
+                    <%= image_tag("jobsBoard.png", title: 'Jobs Board Application', style: 'width: 100%; height: 50em;')%>
+                    <br><br>
+                    <p class="item-intro text-muted"><b>Project Description<b></p>
+                    <span>Web-based Jobs Board App which contains posted featured jobs.</span>
+                    <br><br><br>
+                    <p class="item-intro text-muted"><b>Technologies<b></p>
+                    <span>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Platform:</td>
+                                    <td style="padding-left:5em">Windows</td>
+                                </tr>
+                                <tr>
+                                    <td>Language:</td>
+                                    <td style="padding-left:5em">Ruby</td>
+                                </tr>
+                                <tr>
+                                    <td>Application Server:</td>
+                                    <td style="padding-left:5em">Windows</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </span>
+                    <br><br><br>
+                    <p class="item-intro text-muted"><b>Responsibilities<b></p>
+                    <span>Front End Developer</span>
+                </div>
+                <br><br><br>
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+            </center>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="mdl" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <center>
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+                    <h2>Multi PC Distributing Language</h2>
+                </div>
+                <div class="modal-body">
+                    <%= image_tag("mdl.png", title: 'Multi PC Distributing Language', style: 'width: 100%; height: 50em;')%>
+                    <br><br>
+                    <p class="item-intro text-muted"><b>Project Description<b></p>
+                    <span>Web-based user interface for clients who will use the multi PC distributing programming language.</span>
+                    <br><br><br>
+                    <p class="item-intro text-muted"><b>Technologies<b></p>
+                    <span>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Platform:</td>
+                                    <td style="padding-left:5em">Windows</td>
+                                </tr>
+                                <tr>
+                                    <td>Language:</td>
+                                    <td style="padding-left:5em">Java Web (jsp)</td>
+                                </tr>
+                                <tr>
+                                    <td>Application Server:</td>
+                                    <td style="padding-left:5em">Windows</td>
+                                </tr>
+                                <tr>
+                                    <td>Database Server:</td>
+                                    <td style="padding-left:5em">MySQL</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </span>
+                    <br><br><br>
+                    <p class="item-intro text-muted"><b>Responsibility<b></p>
+                    <span>Back End Developer</span>
+                </div>
+                <br><br><br>
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+            </center>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="ds" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <center>
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+                    <h2>Distributed System Web-based User Interface</h2>
+                </div>
+                <div class="modal-body">
+                    <%= image_tag("ds.png", title: 'Distributed System', style: 'width: 100%; height: 50em;')%>
+                    <br><br>
+                    <p class="item-intro text-muted"><b>Project Description<b></p>
+                    <span>Web-based admin dashboard user interface for admin monitoring status of connection between server and volunteers.</span>
+                    <br><br><br>
+                    <p class="item-intro text-muted"><b>Technologies<b></p>
+                    <span>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Platform:</td>
+                                    <td style="padding-left:5em">Windows</td>
+                                </tr>
+                                <tr>
+                                    <td>Languages:</td>
+                                    <td style="padding-left:5em">PHP, SQL, Javascript</td>
+                                </tr>
+                                <tr>
+                                    <td>Application Server:</td>
+                                    <td style="padding-left:5em">Windows</td>
+                                </tr>
+                                <tr>
+                                    <td>Database Server:</td>
+                                    <td style="padding-left:5em">MySQL</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </span>
+                    <br><br><br>
+                    <p class="item-intro text-muted"><b>Responsibilities<b></p>
+                    <span>Front and Back End Developer</span>
+                </div>
+                <br><br><br>
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+            </center>
+        </div>
+    </div>
+</div>
+<div class="portfolio-modal modal fade" id="cebuColleges" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <center>
+                <div class="modal-header">
+                    <button aria-hidden="true" class="close" data-dismiss="modal" type="button">×</button>
+                    <h2>Cebu Colleges</h2>
+                </div>
+                <div class="modal-body">
+                    <%= image_tag("cebuColleges.png", title: '>Cebu Colleges', style: 'width: 100%; height: 50em;')%>
+                    <br><br>
+                    <p class="item-intro text-muted"><b>Project Description<b></p>
+                    <br><br><br>
+                    <span>Web-based application for fresh highschool graduates looking for college degree particularly in Cebu City.</span>
+                    <p class="item-intro text-muted"><b>Technologies<b></p>
+                    <span>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Platform:</td>
+                                    <td style="padding-left:5em">Windows</td>
+                                </tr>
+                                <tr>
+                                    <td>Languages:</td>
+                                    <td style="padding-left:5em">PHP, SQL, Javascript</td>
+                                </tr>
+                                <tr>
+                                    <td>Application Server:</td>
+                                    <td style="padding-left:5em">Windows</td>
+                                </tr>
+                                <tr>
+                                    <td>Database Server:</td>
+                                    <td style="padding-left:5em">MySQL</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </span>
+                    <br><br><br>
+                    <p class="item-intro text-muted"><b>Responsibilities<b></p>
+                    <span>Back End Developer</span>
+                </div>
+                <br><br><br>
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+            </center>
+        </div>
+    </div>
+</div>

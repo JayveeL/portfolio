@@ -1,0 +1,125 @@
+<nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="background-color: #222; padding: 10px 0;">
+    <div class="container">
+    	<%= link_to "Portfolio", root_path, class: "navbar-brand" %>
+        <div class="collapse navbar-collapse" id="navBar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "HOME", root_path %>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "ABOUT ME", about_me_path %>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "STUDENT LIFE", student_life_path %>
+                </li>
+                <li class="page-scroll navMenu active">
+                    <%= link_to "SKILLS", skills_path %>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "PROJECTS", projects_path %>
+                </li>
+                <li class="page-scroll navMenu">
+                    <%= link_to "CONTACT ME", contact_me_path %>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="row">
+    <div class="col-lg-12 text-center" id="centerDiv">
+        <h2 class="section-heading">SKILLS</h2>
+		<%= image_tag("initials.png", class: 'img-circle img-responsive', title: 'Jayvee Lugod')%>
+    	<br><br>
+		<div id='btnLinks'>
+            <span><%= link_to image_tag("fb.png", class: 'img-circle img-responsive', title: 'Facebook'), 'https://facebook.com/jayveelugod' %></span>
+            <span><%= link_to image_tag("github.png", class: 'img-circle img-responsive', title: 'Github'), 'https://github.com/jayveelugod'%></span>
+        </div>
+    	<br>
+    	<span class='jayvee-name'> Jayvee Lugod </span>
+    	<br>
+		<p class='jayvee-webDev'> Full Stack Web Developer </p>
+    	<br>
+    	<div style="width: 30em; display: inline-block;">
+        	<span class="pro">
+        		Combining my work experience with web-based projects, I am confident that I possess the skills and – most importantly – the dedication and commitment to work.<br>
+        		My record of schoolwork and employment exhibits attributes that make me a valuable employee. In my employment, I have maintained an outstanding record of being on time, prepared, and enthusiastic to take on new responsibilities.
+			</span>
+		</div>
+		<br><br><br>
+		<h3 class="section-subheading text-muted">PERSONAL SKILLS</h3>
+		<span style="line-height: 3em;">
+			<b>•	A high tolerance of stress and enjoys responsibilities</b><br>
+			<b>•	Able to adjust and go beyond expectations</b><br>
+			<b>•	Quick learner with good grasping ability</b><br>
+			<b>•	Action-oriented and result-focused</b><br>
+			<b>•	Able to work individually or on a team</b><br> 
+			<b>•	Great time management skill</b><br>
+			<b>•	Possess a great work ethic and superb team skills.</b><br>
+			<b>•	Ability to adapt quickly in new and changing business, social, and cultural environments.</b><br>
+			<b>•	Physical fitness and ability to work in all conditions.</b><br>
+			<b>•	Task-oriented</b>
+		</span>
+		<div style="width: 100%; margin-top: 5em">
+			<h3 class="section-subheading text-muted">TECHNICAL SKILLS</h3>
+			<br><br>
+			<div class="skill">
+				<%= image_tag("php.png", class: 'img-circle img-responsive')%>
+				<h4>PHP</h4>
+				<p>Skill Level</p>
+				<%=image_tag("phpLevel.png", alt: "PHP", size: "150x45")%>
+			</div>
+			<div class="skill">
+				<%= image_tag("javascript.png", class: 'img-circle img-responsive')%>
+				<h4>Javascript</h4>
+				<p>Skill Level</p>
+				<%=image_tag("jsJqueryLevel.png", alt: "PHP", size: "150x45")%>
+			</div>
+			<div class="skill">
+				<%= image_tag("jquery.png", class: 'img-circle img-responsive')%>
+				<h4>jQuery</h4>
+				<p>Skill Level</p>
+				<%=image_tag("jsJqueryLevel.png", alt: "PHP", size: "150x45")%>
+			</div>
+			<div class="skill">
+				<%= image_tag("ruby.png", class: 'img-circle img-responsive')%>
+				<h4>Ruby</h4>
+				<p>Skill Level</p>
+				<%=image_tag("angularRubyLevel.png", alt: "PHP", size: "150x45")%>
+			</div>
+			<div class="skill">
+				<%= image_tag("java.png", class: 'img-circle img-responsive')%>
+				<h4>Java</h4>
+				<p>Skill Level</p>
+				<%=image_tag("javaCLevel.png", alt: "PHP", size: "150x45")%>
+			</div>
+			<div class="skill">
+				<%= image_tag("mysql.png", class: 'img-circle img-responsive')%>
+				<h4>MySQL</h4>
+				<p>Skill Level</p>
+				<%=image_tag("mysqlLevel.png", alt: "PHP", size: "150x45")%>
+			</div>
+			<div class="skill">
+				<%= image_tag("angular.png", class: 'img-circle img-responsive')%>
+				<h4>AngularJS</h4>
+				<p>Skill Level</p>
+				<%=image_tag("angularRubyLevel.png", alt: "PHP", size: "150x45")%>
+			</div>
+			<div class="skill">
+				<%= image_tag("c.png", class: 'img-circle img-responsive')%>
+				<h4>C</h4>
+				<p>Skill Level</p>
+				<%=image_tag("javaCLevel.png", alt: "PHP", size: "150x45")%>
+			</div>
+		</div>   
+	</div>
+</div>
+<br><br><br>
+<div id='footer'>
+	<br>
+	<p class="footer"> 
+		Copyright © Jayvee Lugod Portfolio 2017
+	</p> 
+</div>
